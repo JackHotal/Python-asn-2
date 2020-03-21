@@ -20,6 +20,6 @@ while x != 'q':
   x = str(input("Enter q to quit or the name of the coffee\n"))
 
 else:
-  print("If you purchase all of the coffee you will need space to hold {0:.2f}lbs. of coffee.\nPress any key to exit ...\n" .format(totalQ))
+  print("If you purchase all of the coffee you will need space to hold {0:.2f} lbs. of coffee.\nPress any key to exit ...\n" .format(totalQ))
 
   if input(): exit()
